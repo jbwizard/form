@@ -1,0 +1,34 @@
+body{
+    background: #9DBEBB;
+}
+
+.red{
+    background: #BE0909;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 954px;
+    min-height: 594px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.yellow{
+    background: #FFB039;
+    width: 100%;
+    max-width: 345px;
+    min-height: 594px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    align-self: flex-end;
+    right: 170px;
+}
