@@ -7,6 +7,9 @@
     <title>Form practice</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -14,16 +17,33 @@
             <div class="yellow"></div>
         </div>    
         <img class="image" src="images/duck.png">
+        <div class="form_container">
+            <form class="form" action="">
+                <div class="input_container">
+                    <label class="label" for="name">Full Name</label>
+                    <input class="placeholder placeholder_none" type="text" placeholder="Your Name" id="name">
+                    <span class="line"></span>
+                </div>
+                <div class="input_container">
+                    <label class="label" for="email">Email</label>
+                    <input class="placeholder" type="email" placeholder="Your Email" id="email">
+                    <span class="line"></span>
+                </div>
+                <div class="input_container">
+                    <label class="label" for="message-regarding">Message Regarding</label>
+                    <input class="placeholder placeholder_none" type="text" placeholder="Your Subject" id="message-regarding">
+                    <span class="line"></span>
+                </div>
+                <div class="input_container">
+                    <label class="label" for="textarea">Message</label>
+                    <textarea class="placeholder textarea" id="textarea" name="message" cols="10" rows="2" class="textarea" placeholder="Your Message"></textarea>
+                    <span class="grow_text" role="textbox" contenteditable=""></span>
+                    <span class="line"></span>
+                </div>    
+            </form>
+        </div>
     </div>    
-    <form action="">
-        <label class="label" for="name">Full Name</label>
-        <input type="text" placeholder="Your Name" id="name">
-        <label class="label" for="email">Email</label>
-        <input type="email" placeholder="Your Email" id="email">
-        <label class="label" for="message-regarding">Message Regarding</label>
-        <input type="text" placeholder="Your Subject" id="message-regarding">
-        <textarea name="message" cols="20" rows="3" class="textarea" placeholder="Your Message"></textarea>
-</form>
+ 
     
     
     
