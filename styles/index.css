@@ -16,16 +16,23 @@ body{
 }
 
 .placeholder{
+    padding-left: 10px;
+    padding-bottom: 10px;
     line-height: 21px;
     /* identical to box height */
     letter-spacing: 0.3em;
     background: none;
     border: 0px;
+    color: white;
+}
+input::placeholder {
+    color: white;
 }
 
 .placeholder:hover{
     opacity: 50%;
 }
+
 
 .placeholder_none{
     opacity: 0%;
@@ -34,6 +41,7 @@ body{
 .placeholder_none:hover{
     opacity: 50%;
 }
+
 
 .red{
     background: #BE0909;
@@ -96,8 +104,29 @@ body{
     border: 1px solid #9DBEBB;
 }
 
-.textarea{
-    overflow: hidden;
-
+.btn{
+    width: 202px;
+    height: 48px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    align-self: center;
 }
 
+.btn:hover{
+    opacity: 80%;
+}
+
+textarea::placeholder{
+    color: white;
+}
